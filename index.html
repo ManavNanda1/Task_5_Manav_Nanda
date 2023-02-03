@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/c3622e6878.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Task 5 By Manav Nanda</title>
+  </head>
+  <body id="body-pd">
+    <!-- Side Navbar Creation below  -->
+
+    <div class="l-navbar" id="nav-bar">
+      <nav class="nav">
+        <div>
+          <a href="#" class="nav_logo">
+            <img src="img/Vector.png" alt="" class="img-fluid" />
+            <h4 style="color: black; font-weight: bolder">LOGOHERE</h4>
+          </a>
+          <div class="nav_list">
+            <a href="#" class="nav_link active">
+              <i class="fa-sharp fa-solid fa-gauge" style="color: black"></i>
+              <span class="nav_name">Dashboard</span>
+            </a>
+            <a href="#" class="nav_link">
+              <i class="fa-regular fa-calendar" style="color: black"></i>
+              <span class="nav_name">Calendar</span>
+            </a>
+            <a href="#" class="nav_link">
+              <i class="fa-regular fa-bars-progress" style="color: black"></i>
+              <span class="nav_name">Project</span>
+            </a>
+            <a href="#" class="nav_link">
+              <i class="fa-sharp fa-solid fa-people-group" style="color: black"></i>
+              <span class="nav_name">Teams</span>
+            </a>
+            <a href="#" class="nav_link">
+              <i class="fa-solid fa-gear" style="color: black"></i>
+              <span class="nav_name">settings</span>
+            </a>
+
+            <div
+              class="header_toggle"
+              id="header"
+              style="color: black; margin-left: 20px"
+            >
+              <i class="bx bx-menu header-toggle" id="header-toggle"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Main content starts below  -->
+
+    <!-- searchbar code below  -->
+    <div class="row">
+      <div class="col-sm-7">
+        <div class="input-group">
+          <input
+            type="search"
+            class="form-control rounded"
+            placeholder="Search"
+            aria-label="Search"
+            aria-describedby="search-addon"
+          />
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <button
+          type="button"
+          class="btn btn-outline-primary btn-hov-effect"
+          style="background: #5630d3; border-radius: 4px; color: white"
+        >
+          Search
+        </button>
+      </div>
+
+      <!-- profile section-1 code below  -->
+      <div class="col-sm-3 ">
+        <h3 class="heading-hover-effects">
+          <span class="janeben">Jane Cooper</span> 
+          <img src="img/Ellipse 119.png" class="img-fluid ms-3" alt="" />
+        </h3>
+      </div>
+    </div>
+
+    <!-- main code below  -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-9">
+          <!-- first box of main content below  -->
+          <div class="row first-line-boxes justify-content-around">
+            <div
+              class="col-sm-2 p-2 hov-effect-leaves-box"
+              style="border: 2px solid violet; border-radius: 4px"
+            >
+              <p>
+                Monthly Working hours
+                <i
+                  class="fa-sharp fa-solid fa-calendar"
+                  style="font-size: 20px; color: #5630d3"
+                ></i>
+              </p>
+              <h3>160</h3>
+            </div>
+            <div
+              class="col-sm-2 p-2  hov-effect-leaves-box"
+              style="border: 2px solid violet; border-radius: 4px"
+            >
+              <p>
+                Weekly Working hours
+                <i
+                  class="fa-sharp fa-solid fa-clock"
+                  style="font-size: 20px; color: #5630d3"
+                ></i>
+              </p>
+              <h3>40</h3>
+            </div>
+            <div
+              class="col-sm-2 p-2  hov-effect-leaves-box"
+              style="border: 2px solid violet; border-radius: 4px"
+            >
+              <p>
+                Late Days
+                <i
+                  class="fa-solid fa-person-running"
+                  style="font-size: 20px; color: #5630d3"
+                ></i>
+              </p>
+              <h3>9</h3>
+            </div>
+            <div
+              class="col-sm-2 p-2  hov-effect-leaves-box"
+              style="border: 2px solid violet; border-radius: 4px"
+            >
+              <p>leave without pay <img src="img/Vector (1).png" alt="" /></p>
+              <h3>2</h3>
+            </div>
+          </div>
+
+          <!-- Second box of main content  -->
+          <div class="row mt-4">
+            <div class="col-sm-12">
+              <table class="table table-bordered text-center table-responsive table-hover">
+                <thead>
+                  <tr>
+                    <th class="hov-effect-leaves-box">
+                      Leaves Remaining
+                      <h1 style="color: #5630d3">10</h1>
+                    </th>
+                    <th class="hov-effect-leaves-box">
+                      Leaves Token
+                      <h1 style="color: #f5822f">06</h1>
+                    </th>
+                    <th class="hov-effect-leaves-box">
+                      Leaves Pending To Approve
+                      <h1 style="color: #ee3c04">2</h1>
+                    </th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+          </div>
+
+          <!-- Third table code below  -->
+          <div class="row mt-5">
+            <div class="col-sm-7 table-responsive">
+              <h2 class="heading-hover-effects">Employee On Leave Today</h2>
+              <!-- First table in our third grid code below  -->
+              <table
+                class="table table-bordered mt-5 table-responsive text-center table-hover"
+              >
+                <thead
+                  style="
+                    background: linear-gradient(
+                      91.37deg,
+                      rgba(101, 144, 255, 0.43) 13.98%,
+                      rgba(126, 154, 255, 0.47) 34.04%,
+                      rgba(197, 199, 255, 0.72) 55.12%,
+                      rgba(187, 176, 255, 0.409659) 73.79%,
+                      rgba(219, 202, 255, 0.96) 94.58%
+                    );
+                  "
+                >
+                  <tr
+                    style="font-weight: bolder; color: black; font-size: 25px" 
+                  >
+                    <th class="table-head-effects">Name</th>
+                    <th class="table-head-effects">Duration</th>
+                    <th class="table-head-effects">Leave-starts</th>
+                    <th class="table-head-effects">Leave-ends</th>
+                    <th class="table-head-effects">Time</th>
+                  </tr>
+                </thead>
+                <tbody
+                  style="
+                    font-size: 15px;
+                    font-weight: bold;
+                    background: #ffffff;
+                  "
+                >
+                  <tr>
+                    <td>John Doe</td>
+                    <td>3 Days</td>
+                    <td>08/02/2023</td>
+                    <td>14/02/2023</td>
+                    <td>Full Day</td>
+                  </tr>
+                  <tr>
+                    <td>John Doe</td>
+                    <td>3 Days</td>
+                    <td>08/02/2023</td>
+                    <td>14/02/2023</td>
+                    <td>Full Day</td>
+                  </tr>
+                  <tr>
+                    <td>John Doe</td>
+                    <td>3 Days</td>
+                    <td>08/02/2023</td>
+                    <td>14/02/2023</td>
+                    <td>Full Day</td>
+                  </tr>
+                  <tr>
+                    <td>John Doe</td>
+                    <td>3 Days</td>
+                    <td>08/02/2023</td>
+                    <td>14/02/2023</td>
+                    <td>Full Day</td>
+                  </tr>
+                  <tr>
+                    <td>John Doe</td>
+                    <td>3 Days</td>
+                    <td>08/02/2023</td>
+                    <td>14/02/2023</td>
+                    <td>Full Day</td>
+                  </tr>
+                  <tr>
+                    <td>John Doe</td>
+                    <td>3 Days</td>
+                    <td>08/02/2023</td>
+                    <td>14/02/2023</td>
+                    <td>Full Day</td>
+                  </tr>
+                  <tr>
+                    <td colspan="5"><a href="">View All</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="col-sm-5">
+              <h1 class="heading-hover-effects">Conversations</h1>
+              <div
+                class="container-fluid mt-4"
+                style="background-color: #ffffff"
+              >
+                <h5 class="mb-3 mt-5">
+                  <span class="box-hover-effect"> Latest Chats </span
+                  ><span class="ms-5 box-hover-effect">Scheduled Posts</span>
+                  <img
+                    src="img/Combined-Shape.png"
+                    alt=""
+                    class="img-fluid ms-5 box-hover-effect"
+                  />
+                </h5>
+
+                <!-- first social profile is there  -->
+                <div class="hov-effect-profile">
+                <img src="img/Dec 28.png" class="img-fluid" alt="" />
+                <img src="img/Rectangle 627.png" alt="" />
+                <span style="font-weight: bold">Yatri Patel</span>
+                <p class="ms-5">
+                  The tasks which we submitted yesterday requires design...
+                </p>
+                <img class="ms-5" src="img/like.png" alt="" />90
+                <img class="ms-5" src="img/comment.png" alt="" />10
+                <img class="ms-5" src="img/Save.png" alt="" />2
+              </div>
+
+                <!-- Second social profile is there  -->
+                <div class="hov-effect-profile">
+                <div class="second-social-profile mt-4">
+                  <img src="img/Dec 24.png" class="img-fluid" alt="" />
+                  <img src="img/Rectangle 628.png" alt="" />
+                  <span style="font-weight: bold">Prachi Patel</span>
+                  <p class="ms-5">
+                    The tasks which we submitted yesterday requires design...
+                  </p>
+                  <img class="ms-5" src="img/like.png" alt="" />90
+                  <img class="ms-5" src="img/comment.png" alt="" />10
+                  <img class="ms-5" src="img/Save.png" alt="" />2
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- assigned tasks box code below  -->
+          <div class="row mt-5">
+            <div class="col-sm table-responsive">
+              <h2 class="heading-hover-effects">Assigned Tasks</h2>
+              <table
+                class="table table-bordered mt-5 table-responsive text-center table-hover"
+              >
+                <thead
+                  style="
+                    background: linear-gradient(
+                      91.37deg,
+                      rgba(101, 144, 255, 0.43) 13.98%,
+                      rgba(126, 154, 255, 0.47) 34.04%,
+                      rgba(197, 199, 255, 0.72) 55.12%,
+                      rgba(187, 176, 255, 0.409659) 73.79%,
+                      rgba(219, 202, 255, 0.96) 94.58%
+                    );
+                  "
+                >
+                  <tr
+                    style="font-weight: bolder; color: black; font-size: 25px"
+                  >
+                    <th class="table-head-effects">Task-Name</th>
+                    <th class="table-head-effects">Date</th>
+                    <th class="table-head-effects">Logged-Hours</th>
+                    <th class="table-head-effects">Task-Efficiency</th>
+                    <th class="table-head-effects">Actions</th>
+                  </tr>
+                </thead>
+                <tbody
+                  style="
+                    font-size: 15px;
+                    font-weight: bold;
+                    background: #ffffff;
+                  "
+                >
+                  <tr>
+                    <td>Magento-VP file-edits</td>
+                    <td>08/02/2023</td>
+                    <td>4 Hours</td>
+                    <td>100%</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>Magento-VP file-edits</td>
+                    <td>08/02/2023</td>
+                    <td>4 Hours</td>
+                    <td>100%</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>Magento-VP file-edits</td>
+                    <td>08/02/2023</td>
+                    <td>4 Hours</td>
+                    <td>100%</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td colspan="5"><a href="">View All</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- all side tables code below  -->
+        <div class="col-sm-3">
+          <!-- table-1  -->
+          <table class="table table-bordered table-responsive table-hover">
+            <thead
+              style="
+                background: linear-gradient(
+                  91.37deg,
+                  rgba(101, 144, 255, 0.43) 13.98%,
+                  rgba(126, 154, 255, 0.47) 34.04%,
+                  rgba(197, 199, 255, 0.72) 55.12%,
+                  rgba(187, 176, 255, 0.409659) 73.79%,
+                  rgba(219, 202, 255, 0.96) 94.58%
+                );
+              "
+            >
+              <tr>
+                <th
+                  style="font-weight: bolder; font-size: 25px"
+                  class="text-center table-head-effects"
+                >
+                  Birthdays Today
+                  <img
+                    class="ms-2"
+                    src="img/cake.png"
+                    alt=""
+                    style="font-size: 23px"
+                  />
+                </th>
+              </tr>
+            </thead>
+            <tbody class="text-center" style="background: #ffffff">
+              <tr>
+                <td>
+                  <img src="img/birt-1.png" class="img-fluid" alt="" />
+                  <span style="font-weight: bold; font-size: 20px">
+                    Shubham Mehta
+                  </span>
+                  <p style="color: #5630d3" class="ms-4">UI/UX Designer</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/birt-2.png" class="img-fluid" alt="" />
+                  <span style="font-weight: bold; font-size: 20px">
+                    Palak Panchal
+                  </span>
+                  <p style="color: #5630d3" class="ms-4">UI/UX Designer</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- table-2  -->
+          <table class="table table-bordered table-responsive table-hover">
+            <thead
+              style="
+                background: linear-gradient(
+                  91.37deg,
+                  rgba(101, 144, 255, 0.43) 13.98%,
+                  rgba(126, 154, 255, 0.47) 34.04%,
+                  rgba(197, 199, 255, 0.72) 55.12%,
+                  rgba(187, 176, 255, 0.409659) 73.79%,
+                  rgba(219, 202, 255, 0.96) 94.58%
+                );
+              "
+            >
+              <tr>
+                <th
+                  style="font-weight: bolder; font-size: 25px"
+                  class="text-center table-head-effects"
+                >
+                  Work Anniversary
+                  <img
+                    class="ms-2"
+                    src="img/celebration.png"
+                    alt=""
+                    style="font-size: 23px"
+                  />
+                </th>
+              </tr>
+            </thead>
+            <tbody class="text-center" style="background: #ffffff">
+              <tr>
+                <td>
+                  <img src="img/birt-1.png" class="img-fluid" alt="" />
+                  <span style="font-weight: bold; font-size: 20px">
+                    Shubham Mehta
+                  </span>
+                  <p style="color: #5630d3" class="ms-4">UI/UX Designer  <b class="ms-2" style="color: black;">1Year</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/wk-1.png" class="img-fluid" alt="" />
+                  <span style="font-weight: bold; font-size: 20px">
+                    Manav Nanda
+                  </span>
+                  <p style="color: #5630d3" class="ms-4">Software developer <b class="ms-2" style="color: black;">1Year</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/wk-2.png" class="img-fluid" alt="" />
+                  <span style="font-weight: bold; font-size: 20px">
+                    Yash Nanda
+                  </span>
+                  <p style="color: #5630d3" class="ms-4">Frontend Developer <b class="ms-2" style="color: black;">1Year</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/wk-3.png" class="img-fluid" alt="" />
+                  <span style="font-weight: bold; font-size: 20px">
+                    Jay Nanda
+                  </span>
+                  <p style="color: #5630d3" class="ms-4">Backend Developer <b class="ms-2" style="color: black;">1Year</b></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- table-3  -->
+          <table class="table table-bordered table-responsive table-hover">
+            <thead
+              style="
+                background: linear-gradient(
+                  91.37deg,
+                  rgba(101, 144, 255, 0.43) 13.98%,
+                  rgba(126, 154, 255, 0.47) 34.04%,
+                  rgba(197, 199, 255, 0.72) 55.12%,
+                  rgba(187, 176, 255, 0.409659) 73.79%,
+                  rgba(219, 202, 255, 0.96) 94.58%
+                );
+              "
+            >
+              <tr>
+                <th
+                  style="font-weight: bolder; font-size: 25px"
+                  class="text-center table-head-effects"
+                >
+                  Holidays
+                  <img
+                    class="ms-2"
+                    src="img/holiday'.png"
+                    alt=""
+                    style="font-size: 23px"
+                  />
+                </th>
+              </tr>
+            </thead>
+            <tbody class="text-center" style="background: #ffffff">
+              <tr>
+                <td>
+                  <img src="img/uttarayan.png" class="img-fluid" alt="" />
+                  <span style="font-weight: bold; font-size: 20px">
+                    Uttarayan 
+                  </span>
+                  <p style="color: #5630d3" class="ms-4">14/01/2023  <b class="ms-2" style="color: black;">2 Day</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/rpday.png" class="img-fluid" alt="" />
+                  <span style="font-weight: bold; font-size: 20px">
+                    Republic Day
+                  </span>
+                  <p style="color: #5630d3" class="ms-4">26/01/2023 <b class="ms-2" style="color: black;">1 Day</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/holi.png" class="img-fluid" alt="" />
+                  <span style="font-weight: bold; font-size: 20px">
+                    Holi
+                  </span>
+                  <p style="color: #5630d3" class="ms-4">08/03/2023 <b class="ms-2" style="color: black;">1 Day</b></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="img/uttarayan.png" class="img-fluid" alt="" />
+                  <span style="font-weight: bold; font-size: 20px">
+                    Saatam Aatham
+                  </span>
+                  <p style="color: #5630d3" class="ms-4">01/08/2023 <b class="ms-2" style="color: black;">1 Month</b></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer code below  -->
+
+<footer class="bg-dark text-center text-white container-fluid">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe Us
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">Task_5_Manav_Nanda.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
